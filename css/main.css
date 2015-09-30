@@ -12,7 +12,7 @@ html{
 	text-size-adjust: 100%;
 	font-size : 100%;
 	font-family: Oxygen, sans-serif;
-	line-height: 1.3;
+	line-height: 1.3em;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -20,3 +20,16 @@ html{
 body{
 	margin: 0;
 }
+h1 {
+	font-family: Oxygen-light, sans-serif;
+	font-weight: normal;
+	line-height: 2.6rem;
+	margin: 1.3rem;
+}
+main p{
+	margin: 0 1.3rem 1.3rem 1.3rem;
+}
+.margin{
+	margin: 0 1.3rem;
+}
+
