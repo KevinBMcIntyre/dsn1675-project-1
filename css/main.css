@@ -32,4 +32,32 @@ main p{
 .margin{
 	margin: 0 1.3rem;
 }
+.twitter {
+	background-color: red;
+	background-image: url('../images/twitter.png');
+}
+.linkedin {
+	margin-top: 1.3rem;
+	background-color: blue;
+	background-image: url('../images/linkedin.png');
+}
+.button {
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 5.2rem;
+}
+.img {
+	background-image: url('../images/portrait.jpg');
+	height: 14.4rem;
+	margin: 1.3rem;
+	background-size: cover;
+	background-position: 0;
+}
 
+
+@media only screen and (min-width: 48em){
+html{
+	font-size: 110%;
+	line-height: 1.4;
+}
+}
