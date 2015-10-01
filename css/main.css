@@ -33,12 +33,12 @@ main p{
 	margin: 0 1.3rem;
 }
 .twitter {
-	background-color: red;
+	background-color: #55acee;
 	background-image: url('../images/twitter.png');
 }
 .linkedin {
 	margin-top: 1.3rem;
-	background-color: blue;
+	background-color: #0077B5;
 	background-image: url('../images/linkedin.png');
 }
 .button {
@@ -55,9 +55,54 @@ main p{
 }
 
 
-@media only screen and (min-width: 48em){
+@media only screen and (min-width: 36em){
 html{
 	font-size: 110%;
 	line-height: 1.4;
 }
+.img {
+	background-image: url('../images/portrait.jpg');
+	height: 22.5rem;
+	margin: 1.4rem  20%;
+}
+h1 {
+	line-height: 2.8rem;
+	margin: 1.4rem 1.4rem 1.4rem 20%;
+}
+main p{
+	margin: 0 20% 1.4rem 20%;
+}
+.margin{
+	margin: 0 20%;
+}
+.twitter {
+	margin: 1.4rem 20% 20% auto;
+	background-color: #55acee;
+	background-image: url('../images/twitter.png');
+	float: right;
+}
+.linkedin {
+	margin: 1.4rem auto 20% 20%;
+	background-color: #0077B5;
+	background-image: url('../images/linkedin.png');
+	float: left;
+}
+.button {
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 7.5rem;
+	width: 28.125%;
+}
+
+}
+
+@media only screen and (min-width: 62.5em){
+.img {
+	background-image: url('../images/portrait.jpg');
+	height: 18.1rem;
+	margin: 0 0 1.5rem 0;
+	background-position: 0 40%;
+}
+
+17
 }
