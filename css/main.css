@@ -103,6 +103,22 @@ main p{
 	margin: 0 0 1.5rem 0;
 	background-position: 0 40%;
 }
-
-17
+html{
+	font-size: 120%;
+	line-height: 1.5;
 }
+main p{
+	max-width:40em;
+	margin: 0 auto 1.5rem auto;
+}
+h1 {
+	line-height: 3rem;
+	margin: 1.5rem auto 1.5rem auto;
+	max-width:40em;
+	margin-left: calc(50% - 10em);
+}
+.margin{
+	margin-left: calc(50% - 20em);
+}
+}
+
