@@ -115,10 +115,22 @@ h1 {
 	line-height: 3rem;
 	margin: 1.5rem auto 1.5rem auto;
 	max-width:40em;
-	margin-left: calc(50% - 10em);
+	margin-left: calc(50% - 5.75em);
+	font-size: 350%;
 }
 .margin{
 	margin-left: calc(50% - 20em);
 }
+.button {
+	height: 5.4rem;
+    width: 14.9rem;
+}
+
+.twitter {
+	margin: 1.5rem calc(50% - 20em) 0 0;
+}
+.linkedin {
+	margin: 1.5rem auto 0 calc(50% - 20em);
+	}
 }
 
