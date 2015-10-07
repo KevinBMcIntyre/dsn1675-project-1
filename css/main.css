@@ -53,6 +53,9 @@ main p{
 	background-size: cover;
 	background-position: 0;
 }
+footer p{
+	text-decoration: none;
+}
 
 
 @media only screen and (min-width: 36em){
@@ -93,9 +96,7 @@ main p{
 	height: 7.5rem;
 	width: 28.125%;
 }
-
 }
-
 @media only screen and (min-width: 62.5em){
 .img {
 	background-image: url('../images/portrait.jpg');
@@ -125,7 +126,6 @@ h1 {
 	height: 5.4rem;
     width: 14.9rem;
 }
-
 .twitter {
 	margin: 1.5rem calc(50% - 20em) 0 0;
 }
@@ -133,4 +133,11 @@ h1 {
 	margin: 1.5rem auto 0 calc(50% - 20em);
 	}
 }
-
+@media print{
+.img {
+	display: none;
+}
+main p {
+	min-width: 30em;
+}
+}
